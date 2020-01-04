@@ -1,11 +1,7 @@
-package com.debug.kill.server.enums;/**
- * Created by Administrator on 2019/6/17.
- */
+package com.debug.kill.server.enums;
 
 /**
  * 系统级别的常量
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/17 22:48
  **/
 public class SysConstant {
 
@@ -14,10 +10,7 @@ public class SysConstant {
         Invalid(-1,"无效"),
         SuccessNotPayed(0,"成功-未付款"),
         HasPayed(1,"已付款"),
-        Cancel(2,"已取消"),
-
-        ;
-
+        Cancel(2,"已取消");
         private Integer code;
         private String msg;
 

@@ -1,6 +1,4 @@
-package com.debug.kill.server.controller;/**
- * Created by Administrator on 2019/7/2.
- */
+package com.debug.kill.server.controller;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
@@ -21,8 +19,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * 用户controller
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/2 17:45
  **/
 @Controller
 public class UserController {
@@ -90,38 +86,3 @@ public class UserController {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

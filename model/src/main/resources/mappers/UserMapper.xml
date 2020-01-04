@@ -125,15 +125,12 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>
-
-
   <!--根据用户名查询-->
   <select id="selectByUserName" resultType="com.debug.kill.model.entity.User">
     SELECT <include refid="Base_Column_List"/>
     FROM user
     WHERE user_name = #{userName}
   </select>
-
   <!--根据用户名密码查询-->
   <select id="selectByUserNamePsd" resultType="com.debug.kill.model.entity.User">
     SELECT <include refid="Base_Column_List"/>
@@ -141,27 +138,4 @@
     WHERE user_name = #{userName}
           AND password = #{password}
   </select>
-
-
 </mapper>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

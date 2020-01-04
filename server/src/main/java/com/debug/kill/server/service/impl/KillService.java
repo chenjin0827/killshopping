@@ -1,6 +1,4 @@
-package com.debug.kill.server.service.impl;/**
- * Created by Administrator on 2019/6/17.
- */
+package com.debug.kill.server.service.impl;
 
 import com.debug.kill.model.entity.ItemKill;
 import com.debug.kill.model.entity.ItemKillSuccess;
@@ -24,11 +22,6 @@ import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
-
-/**
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/17 22:21
- **/
 @Service
 public class KillService implements IKillService{
 
@@ -290,50 +283,6 @@ public class KillService implements IKillService{
                 mutex.release();
             }
         }
-
-
-
-
         return result;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

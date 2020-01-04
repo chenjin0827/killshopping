@@ -1,8 +1,5 @@
-package com.debug.kill.server.service.impl;/**
- * Created by Administrator on 2019/6/16.
- */
+package com.debug.kill.server.service.impl;
 
-import com.debug.kill.model.entity.Item;
 import com.debug.kill.model.entity.ItemKill;
 import com.debug.kill.model.mapper.ItemKillMapper;
 import com.debug.kill.server.service.IItemService;
@@ -13,10 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/16 22:45
- **/
+
 @Service
 public class ItemService implements IItemService{
 
@@ -51,22 +45,3 @@ public class ItemService implements IItemService{
         return entity;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

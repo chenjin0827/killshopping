@@ -1,6 +1,4 @@
-package com.debug.kill.server.service;/**
- * Created by Administrator on 2019/6/22.
- */
+package com.debug.kill.server.service;
 
 import com.debug.kill.server.dto.MailDto;
 import org.slf4j.Logger;
@@ -18,8 +16,6 @@ import javax.mail.internet.MimeMessage;
 
 /**
  * 邮件服务
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/22 10:09
  **/
 @Service
 @EnableAsync
@@ -74,34 +70,3 @@ public class MailService {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

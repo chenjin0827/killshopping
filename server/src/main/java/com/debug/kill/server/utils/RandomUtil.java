@@ -1,19 +1,12 @@
 package com.debug.kill.server.utils;
-/**
- * Created by Administrator on 2019/6/20.
- */
 
-import org.apache.shiro.crypto.hash.Md5Hash;
 import org.joda.time.DateTime;
 
 import java.text.SimpleDateFormat;
-import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * 随机数生成util
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/20 21:05
  **/
 public class RandomUtil {
 
@@ -38,8 +31,6 @@ public class RandomUtil {
         }
         return sb.toString();
     }
-
-
 //    public static void main(String[] args) {
 //        String salt="11299c42bf954c0abb373efbae3f6b26";
 //        String password="debug";

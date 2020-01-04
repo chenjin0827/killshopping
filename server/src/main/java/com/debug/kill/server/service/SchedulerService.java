@@ -1,6 +1,4 @@
-package com.debug.kill.server.service;/**
- * Created by Administrator on 2019/6/29.
- */
+package com.debug.kill.server.service;
 
 import com.debug.kill.model.entity.ItemKillSuccess;
 import com.debug.kill.model.mapper.ItemKillSuccessMapper;
@@ -15,8 +13,6 @@ import java.util.List;
 
 /**
  * 定时任务服务
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/29 21:26
  **/
 @Service
 public class SchedulerService {
@@ -66,39 +62,3 @@ public class SchedulerService {
 //        log.info("v3的定时任务----");
 //    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

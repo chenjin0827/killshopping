@@ -1,6 +1,4 @@
-package com.debug.kill.server.service;/**
- * Created by Administrator on 2019/6/21.
- */
+package com.debug.kill.server.service;
 
 import com.debug.kill.model.dto.KillSuccessUserInfo;
 import com.debug.kill.model.mapper.ItemKillSuccessMapper;
@@ -18,8 +16,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * RabbitMQ发送邮件服务
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/21 21:47
  **/
 @Service
 public class RabbitSenderService {
@@ -101,31 +97,3 @@ public class RabbitSenderService {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

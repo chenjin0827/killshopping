@@ -1,6 +1,4 @@
-package com.debug.kill.server.dto;/**
- * Created by Administrator on 2019/6/22.
- */
+package com.debug.kill.server.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,10 +7,7 @@ import lombok.ToString;
 
 import java.io.Serializable;
 
-/**
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/22 10:11
- **/
+
 @Data
 @ToString
 @AllArgsConstructor

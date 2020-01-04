@@ -46,13 +46,6 @@
   </select>
 
 
-
-
-
-
-
-
-
   <!--抢购商品，剩余数量减一-->
   <update id="updateKillItem">
     UPDATE item_kill
@@ -60,11 +53,6 @@
     WHERE
         id = #{killId}
   </update>
-
-
-
-
-
 
   <!--获取秒杀详情V2-->
   <select id="selectByIdV2" resultType="com.debug.kill.model.entity.ItemKill">
@@ -79,15 +67,6 @@
     WHERE a.is_active = 1 AND a.id =#{id} AND a.total>0
   </select>
 
-
-
-
-
-
-
-
-
-
   <!--抢购商品，剩余数量减一-->
   <update id="updateKillItemV2">
     UPDATE item_kill
@@ -96,29 +75,3 @@
   </update>
 
 </mapper>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

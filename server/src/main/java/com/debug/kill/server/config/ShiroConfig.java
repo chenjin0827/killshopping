@@ -1,6 +1,4 @@
-package com.debug.kill.server.config;/**
- * Created by Administrator on 2019/7/2.
- */
+package com.debug.kill.server.config;
 
 import com.debug.kill.server.service.CustomRealm;
 import org.apache.shiro.mgt.SecurityManager;
@@ -14,8 +12,6 @@ import java.util.Map;
 
 /**
  * shiro的通用化配置
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/2 17:54
  **/
 @Configuration
 public class ShiroConfig {

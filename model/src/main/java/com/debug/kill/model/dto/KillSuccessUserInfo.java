@@ -1,6 +1,4 @@
-package com.debug.kill.model.dto;/**
- * Created by Administrator on 2019/6/21.
- */
+package com.debug.kill.model.dto;
 
 import com.debug.kill.model.entity.ItemKillSuccess;
 import lombok.Data;
@@ -8,10 +6,6 @@ import lombok.ToString;
 
 import java.io.Serializable;
 
-/**
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/21 22:02
- **/
 @Data
 public class KillSuccessUserInfo extends ItemKillSuccess implements Serializable{
 

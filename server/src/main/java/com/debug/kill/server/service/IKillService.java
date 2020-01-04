@@ -1,8 +1,4 @@
 package com.debug.kill.server.service;
-
-/**
- * Created by Administrator on 2019/6/17.
- */
 public interface IKillService {
 
     Boolean killItem(Integer killId,Integer userId) throws Exception;

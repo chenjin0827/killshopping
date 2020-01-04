@@ -1,6 +1,4 @@
-package com.debug.kill.server.controller;/**
- * Created by Administrator on 2019/6/17.
- */
+package com.debug.kill.server.controller;
 
 import com.debug.kill.api.enums.StatusCode;
 import com.debug.kill.api.response.BaseResponse;
@@ -24,8 +22,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * 秒杀controller
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/17 22:14
  **/
 @Controller
 public class KillController {
@@ -166,43 +162,3 @@ public class KillController {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

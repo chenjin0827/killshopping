@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 基础controller
- * @Author:debug (SteadyJack)
- * @Date: 2019/6/13 23:36
  **/
 @Controller
 @RequestMapping("base")
@@ -74,29 +72,4 @@ public class BaseController {
     public String error(){
         return "error";
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

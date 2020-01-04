@@ -1,6 +1,4 @@
-package com.debug.kill.server.service;/**
- * Created by Administrator on 2019/7/2.
- */
+package com.debug.kill.server.service;
 
 import com.debug.kill.model.entity.User;
 import com.debug.kill.model.mapper.UserMapper;
@@ -18,8 +16,6 @@ import java.util.Objects;
 
 /**
  * 用户自定义的realm-用于shiro的认证、授权
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/2 17:55
  **/
 public class CustomRealm extends AuthorizingRealm{
 
@@ -84,22 +80,3 @@ public class CustomRealm extends AuthorizingRealm{
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
