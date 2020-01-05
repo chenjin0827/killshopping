@@ -1,17 +1,4 @@
-/*
-Navicat MySQL Data Transfer
 
-Source Server         : 本地数据库
-Source Server Version : 50640
-Source Host           : localhost:3306
-Source Database       : db_second_kill
-
-Target Server Type    : MYSQL
-Target Server Version : 50640
-File Encoding         : 65001
-
-Date: 2019-07-02 19:16:34
-*/
 
 SET FOREIGN_KEY_CHECKS=0;
 
