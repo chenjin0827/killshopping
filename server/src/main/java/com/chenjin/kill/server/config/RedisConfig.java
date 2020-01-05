@@ -22,7 +22,7 @@ public class RedisConfig {
     public RedisTemplate<String,Object> redisTemplate(){
         RedisTemplate<String,Object> redisTemplate=new RedisTemplate<>();
         redisTemplate.setConnectionFactory(redisConnectionFactory);
-        //TODO:指定Key、Value的序列化策略
+        //指定Key、Value的序列化策略
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         redisTemplate.setValueSerializer(new JdkSerializationRedisSerializer());
 
@@ -37,40 +37,3 @@ public class RedisConfig {
         return stringRedisTemplate;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

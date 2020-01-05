@@ -42,12 +42,12 @@ public class RabbitSenderService {
             if (StringUtils.isNotBlank(orderNo)){
                 KillSuccessUserInfo info=itemKillSuccessMapper.selectByCode(orderNo);
                 if (info!=null){
-                    //TODO:rabbitmq发送消息的逻辑
+                    //rabbitmq发送消息的逻辑
                     rabbitTemplate.setMessageConverter(new Jackson2JsonMessageConverter());
                     rabbitTemplate.setExchange(env.getProperty("mq.kill.item.success.email.exchange"));
                     rabbitTemplate.setRoutingKey(env.getProperty("mq.kill.item.success.email.routing.key"));
 
-                    //TODO：将info充当消息发送至队列
+                    //将info充当消息发送至队列
                     rabbitTemplate.convertAndSend(info, new MessagePostProcessor() {
                         @Override
                         public Message postProcessMessage(Message message) throws AmqpException {
@@ -84,7 +84,7 @@ public class RabbitSenderService {
                             mp.setDeliveryMode(MessageDeliveryMode.PERSISTENT);
                             mp.setHeader(AbstractJavaTypeMapper.DEFAULT_CONTENT_CLASSID_FIELD_NAME,KillSuccessUserInfo.class);
 
-                            //TODO：动态设置TTL(为了测试方便，暂且设置10s)
+                            //动态设置TTL(为了测试方便，暂且设置10s)
                             mp.setExpiration(env.getProperty("mq.kill.item.success.kill.expire"));
                             return message;
                         }

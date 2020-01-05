@@ -1,7 +1,4 @@
-package com.chenjin.kill.server.controller;/**
- * Created by Administrator on 2019/6/13.
- */
-
+package com.chenjin.kill.server.controller;
 import com.chenjin.kill.api.enums.StatusCode;
 import com.chenjin.kill.api.response.BaseResponse;
 import org.apache.commons.lang3.StringUtils;
